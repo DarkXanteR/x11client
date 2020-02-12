@@ -1,5 +1,4 @@
-FROM debian:stretch
-MAINTAINER Aaron Madlon-Kay <aaron@madlon-kay.com>
+FROM debian:buster
 
 # first create user and group for all the X Window stuff
 # required to do this first so we have consistent uid/gid between server and client container
